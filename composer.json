@@ -3,7 +3,8 @@
         "vlucas/phpdotenv": "^2.4",
         "okta/jwt-verifier": "^0.2.1",
         "spomky-labs/jose": "^7.1",
-        "guzzlehttp/psr7": "^1.4"
+        "guzzlehttp/psr7": "^1.4",
+        "silex/silex": "~1.1"
     },
     "autoload": {
         "psr-4": {

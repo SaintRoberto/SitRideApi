@@ -107,8 +107,8 @@ class PersonGateway {
     public function delete($id)
     {
         $statement = "
-            DELETE FROM person
-            WHERE id = :id;
+            DELETE FROM users
+            WHERE userName = :userName;
         ";
 
         try {
